@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:40 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: Reset the position of the cursor
+ */
+
 #include		"incendie.h"
 
 /*Sens représente le "profil" de reset. Il permet de revenir au point de

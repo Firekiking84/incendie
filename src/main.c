@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:37 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: Main function of the project incendie
+ */
+
 #include		<lapin.h>
 #include		"incendie.h"
 #include		<unistd.h>

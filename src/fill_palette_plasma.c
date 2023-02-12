@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:35 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: fill the palette of color
+ */
+
 #include		"incendie.h"
 
 static void		gradient(unsigned int				*palette,
@@ -25,7 +33,7 @@ void			last_col(unsigned int				*palette,
       *i += 1;
     }
 }
- 
+
 void			fill_palette_plasma(unsigned int		*palette)
 {
   t_plasma_color	color;

@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:34 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: Draw each layer of the fire's body
+ */
+
 #include			"incendie.h"
 #include			<lapin.h>
 #include			<stdlib.h>

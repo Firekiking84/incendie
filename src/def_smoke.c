@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:32 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: (Broken) Draw a gradient of grey in the background
+ */
+
 #include		"incendie.h"
 #include		<lapin.h>
 

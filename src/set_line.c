@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:40 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: set_line
+ */
+
 #include		<lapin.h>
 #include		"incendie.h"
 

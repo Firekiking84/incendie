@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:33 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: manage shape for diagonale skeleton
+ */
+
 #include		<lapin.h>
 #include		"incendie.h"
 

@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:35 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: get_ratio
+ */
+
 float		get_ratio(int a,
 			  int b,
 			  int x)

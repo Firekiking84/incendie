@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:38 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: make color
+ */
+
 #include	<lapin.h>
 
 unsigned int	mk_color(unsigned char r,

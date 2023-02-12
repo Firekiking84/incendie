@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:39 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: Function of the plasma part of the projet incendie
+ */
+
 #include		<lapin.h>
 #include		"incendie.h"
 
@@ -24,5 +32,5 @@ void			plasma(t_window		*win)
       i += 1;
     }
   bunny_blit(&win->win->buffer, &win->px->clipable, &win->origin);
-  bunny_display(win->win);  
+  bunny_display(win->win);
 }

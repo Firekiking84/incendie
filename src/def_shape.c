@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:31 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: Define the shape of each body of fire
+ */
+
 #include		"incendie.h"
 #include		<lapin.h>
 
@@ -32,7 +40,6 @@ static void		vertical_management(t_bunny_position		*pos,
       y -= 1;
     }
 }
-      
 
 void			def_shape(t_bunny_position			*pos,
 				  t_window				*win,

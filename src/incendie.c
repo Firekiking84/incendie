@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:36 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: (Broken) Use the script give in the rules to do fire
+ */
+
 #include			"incendie.h"
 #include			<unistd.h>
 #include			<lapin.h>

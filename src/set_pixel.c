@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:41 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: set_pixel
+ */
+
 #include		<lapin.h>
 
 void			set_pixel(t_bunny_pixelarray	*px,

@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:37 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: init layer values of the shape body
+ */
+
 #include	<stdlib.h>
 
 void		init_layer_value(int		*len,

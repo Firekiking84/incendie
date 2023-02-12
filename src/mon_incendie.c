@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:38 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: My version of the project incendie
+ */
+
 #include		"incendie.h"
 #include		<lapin.h>
 #include		<unistd.h>
@@ -18,7 +26,6 @@ static void		blur(t_window			*win,
       i += 1;
     }
 }
-  
 
 void			mon_incendie(t_window		*win)
 {

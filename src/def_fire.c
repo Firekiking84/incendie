@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:29 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: Define and draw the fire
+ */
+
 #include		"incendie.h"
 #include		<lapin.h>
 #include		<unistd.h>

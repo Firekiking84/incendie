@@ -1,3 +1,11 @@
+/*
+ * EFRITS
+ * project:     incendie
+ * created on:  2023-02-13 - 00:28 +0100
+ * 1st author:  keryan.houssin - keryan.houssin
+ * description: Calcul the average color and apply it
+ */
+
 #include		"incendie.h"
 
 void			calcul_and_apply(t_average	*var)
