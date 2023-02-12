@@ -19,7 +19,7 @@ int			main(void)
   incendie.px = bunny_new_pixelarray(incendie.size.x, incendie.size.y);
   plasma_screen.win = bunny_start(plasma_screen.size.x, plasma_screen.size.y, false, "Plasma");
   plasma_screen.px = bunny_new_pixelarray(plasma_screen.size.x, plasma_screen.size.y);
-  //  plasma(&plasma_screen);
+  plasma(&plasma_screen);
   mon_incendie(&incendie);
   bunny_stop(incendie.win);
   bunny_stop(plasma_screen.win);

@@ -9,7 +9,7 @@ void			plasma(t_window		*win)
   int			pick;
   unsigned int		*tab;
 
-  limit = (win->size.x * win->size.y) - 10;
+  limit = (win->size.x * win->size.y) - 1;
   fill_palette_plasma(&palette[0]);
   tab = win->px->pixels;
   i = 0;
@@ -20,7 +20,7 @@ void			plasma(t_window		*win)
 	pick = 128;
       if (pick < 0)
 	pick *= -1;
-      tab[i] = palette[i];
+      tab[i] = palette[pick];
       i += 1;
     }
   bunny_blit(&win->win->buffer, &win->px->clipable, &win->origin);
