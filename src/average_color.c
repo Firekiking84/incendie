@@ -7,7 +7,7 @@ static void		behind(t_average			*var,
   int			i;
 
   i = 0;
-  while(i < neighbour)
+  while (i < neighbour)
     {
       move_cursor(var, -1, 0);
       calcul_and_apply(var);
@@ -75,7 +75,7 @@ static void		top(t_average				*var,
       i_y += 1;
     }
   reset_position(neighbour, var, 3);
-} 
+}
 
 unsigned int		average_color(int			i,
 				      int			limit,

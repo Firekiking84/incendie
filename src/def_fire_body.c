@@ -1,7 +1,7 @@
 #include		"incendie.h"
 #include		<lapin.h>
 #include		<stdlib.h>
-#include		<time.h>  
+#include		<time.h>
 
 static void		limit(t_bunny_position		*pos,
 			      t_window			*win)
@@ -68,14 +68,14 @@ static void		draw_body(t_window		*win,
       i += 1;
     }
 }
-  
+
 
 void			def_fire_body(t_window		*win,
 				      unsigned int	*palette)
 {
   int			n_body;
   int			i;
-  
+
   srand(time(NULL));
   n_body = rand() % win->size.x;
   if (n_body == 0)
