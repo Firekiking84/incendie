@@ -1,5 +1,4 @@
 #include	<stdlib.h>
-#include	<stdio.h>
 
 void		init_layer_value(int		*len,
 				 int		*i,

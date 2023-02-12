@@ -1,7 +1,6 @@
 #include			"incendie.h"
 #include			<unistd.h>
 #include			<lapin.h>
-#include			<stdio.h>
 
 void				incendie(t_window		*win)
 {

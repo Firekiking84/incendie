@@ -1,5 +1,5 @@
-#include <lapin.h>
-#include "incendie.h"
+#include			<lapin.h>
+#include			"incendie.h"
 
 static int			check_status(int			a,
 					     int			b,

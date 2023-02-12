@@ -1,4 +1,4 @@
-#include		"incendie.h"
+#include	"incendie.h"
 
 void		move_cursor(t_average		*var,
 			    int			add_x,

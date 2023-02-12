@@ -24,6 +24,27 @@ static void		limit(t_bunny_position		*pos,
     pos[1].y = win->size.y - 1;
 }
 
+static void		get_pos(t_bunny_position	*pos,
+				t_window		*win,
+				int			*i)
+{
+  if (*i == 0)
+    {
+      pos[0].x = rand() % win->size.x;
+      pos[0].y = win->size.y;
+    }
+  else
+    {
+      if ((rand() % 2) == 0)
+	pos[1].x = pos[0].x - (rand() % 25);
+      else
+	pos[1].x = pos[0].x + (rand() % 25);
+      pos[1].y = pos[0].y - ((rand() % 100) + (win->size.y * 0.05));
+    }
+  limit(pos, win);
+}
+  
+
 static void		draw_body(t_window		*win,
 				  unsigned int		*palette)
 {
@@ -37,20 +58,7 @@ static void		draw_body(t_window		*win,
   i = 0;
   while (i < n_point || i == 0)
     {
-      if (i == 0)
-	{
-	  pos[0].x = rand() % win->size.x;
-	  pos[0].y = win->size.y;
-	}
-      else
-	{
-	  if ((rand() % 2) == 0)
-	    pos[1].x = pos[0].x - (rand() % 25);
-	  else
-	    pos[1].x = pos[0].x + (rand() % 25);
-	  pos[1].y = pos[0].y - ((rand() % 100) + (win->size.y * 0.05));
-	}
-      limit(&pos[0], win);
+      get_pos(&pos[0], win, &i);
       if (i > 1)
 	{
 	  def_shape(&pos[0], win, palette);

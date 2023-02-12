@@ -12,6 +12,5 @@ unsigned int	mk_color(unsigned char r,
   col.argb[1] = g;
   col.argb[2] = b;
   col.argb[3] = a;
-
   return(col.full);
 }
