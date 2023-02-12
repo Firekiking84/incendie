@@ -29,9 +29,6 @@ void			mon_incendie(t_window		*win)
   i = 0;
   fill_palette(&palette[0]);
   init_pixelarray(win, 0);
-  //  def_smoke(win);
-  //blur(win, 5);
-  //blur(win, 2);
   while (i < 50)
     {
       def_fire_body(win, &palette[0]);
@@ -40,7 +37,7 @@ void			mon_incendie(t_window		*win)
       i += 1;
     }
   i = 0;
-  while (i < 500)
+  while (i < 30)
     {
       def_fire_body(win, &palette[0]);
       blur(win, 5);
